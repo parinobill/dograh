@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.31.0](https://github.com/dograh-hq/dograh/compare/dograh-v1.30.1...dograh-v1.31.0) (2026-05-19)
+
+
+### Features
+
+* add agent skills to review PR ([#320](https://github.com/dograh-hq/dograh/issues/320)) ([151bf77](https://github.com/dograh-hq/dograh/commit/151bf77e40476b63000c1e88d2f348d5d2791344))
+* **mcp:** generic MCP tool source with per-node function filtering ([#301](https://github.com/dograh-hq/dograh/issues/301)) ([75839f9](https://github.com/dograh-hq/dograh/commit/75839f9de5eb26ccc296235af36058e442d10d58))
+
+
+### Documentation
+
+* add Simplified Chinese translation of README ([#305](https://github.com/dograh-hq/dograh/issues/305)) ([5b1e398](https://github.com/dograh-hq/dograh/commit/5b1e3980b1982506aa334d19ab594db04ef9e19c))
+
 ## [1.30.1](https://github.com/dograh-hq/dograh/compare/dograh-v1.30.0...dograh-v1.30.1) (2026-05-17)
 
 
