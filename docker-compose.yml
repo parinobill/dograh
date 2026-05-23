@@ -67,7 +67,9 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
-    command: redis-server --appendonly yes
+      start_period: 10s
+    # maxmemory set to avoid redis eating all available RAM on my dev machine
+    command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy allkeys-lru
 
 volumes:
   postgres_data:
