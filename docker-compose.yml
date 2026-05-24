@@ -70,7 +70,8 @@ services:
       start_period: 10s
     # maxmemory set to avoid redis eating all available RAM on my dev machine
     # bumped down to 16mb - running even more projects locally now, every mb counts
-    command: redis-server --appendonly yes --maxmemory 16mb --maxmemory-policy allkeys-lru
+    # bumped down again to 12mb - added yet another project to the mix
+    command: redis-server --appendonly yes --maxmemory 12mb --maxmemory-policy allkeys-lru
 
 volumes:
   postgres_data:
